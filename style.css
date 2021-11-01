@@ -7,12 +7,6 @@
   font-family: silkscreen;
   src: url(fonts/silkscreen.ttf);
 }
-:root{
-	--cwidth: calc(100vw / 7);
-	--cheight: calc(100vw / 7);
-	--capheight: max(calc(50vh - 7vw * 3), 8vh);
-	--bannerheight: calc( (100vh - var(--cheight) * 2 - var(--capheight) * 2 ) / 2);
-}
 html, body {
   background: #44375e;
   background-size: cover;
@@ -20,19 +14,6 @@ html, body {
 }
 
 @media {
-#titleText{
-	position: absolute;
-	font-size: calc( var(--bannerheight) * 0.8);
-	top: calc( var(--bannerheight) *0.1);
-	left: calc( var(--bannerheight) *0.1);
-}
-#teamTitle{
-	position: absolute;
-	font-size: calc( var(--bannerheight) * 0.8);
-	top: calc( var(--bannerheight) *0.1);
-	left:  calc( var(--bannerheight) * 6 * 0.875);
-	color: white;
-}
 .middle {
 	text-align: center;
 }
@@ -43,154 +24,9 @@ html, body {
 	margin-right: auto;
 	display: block;
 }
-#title{
-	top: 0;
-	left: 0;
-	position: absolute;
-	width: 100%;
-	height: var(--bannerheight);
-	background: #FFA373;
-	font-family: Silkscreen;
-	z-index:1;
-	border-bottom: 1px solid white;
-}
+
 #title_banner{
     margin-top: 5%;
 	width: 75%;
 }
-#bottomTitle{
-	bottom: 0;
-	left: 0;
-	position: relative;
-	width: 100%;
-	height: var(--bannerheight);
-	font-family: Arial;
-	font-size: calc( var(--bannerheight) * 0.8);
-	z-index:1;
-	border-top: 1px solid white;
-}
-.icon{
-	display: block;
-	height: calc(var(--bannerheight) * 0.5);
-	width: calc(var(--bannerheight) * 0.5);
-	padding-left: 1vw;
-	margin-top: calc(var(--bannerheight) * 0.25);
-	float: left;
-
-}
-#facebook{
-}
-#messenger{
-	margin-left: calc(50vw - var(--bannerheight) - 2vw);
-
-}
-#email{
-	
-}
-#twitter{
-	
-}
-#logo{
-	position: absolute;
-	top: calc( var(--bannerheight) * 0.1);
-	right: calc( var(--bannerheight) * 0.1);
-	height: calc( var(--bannerheight) * 0.8);
-	width: calc( var(--bannerheight) * 0.8);
-	z-index:3;
-}
-#titleText{
-	color: black;
-}
-
-
-#mainContainer{
-	position: absolute;
-	top: var(--bannerheight);
-	left: 0;
-	width: 100%;
-}
-
-@media (min-width: 1001px) and (max-width: 1201px) {
-#titleText{
-	position: absolute;
-	font-size: calc( var(--bannerheight) * 0.8);
-	top: calc( var(--bannerheight) *0.1);
-	left: calc( var(--bannerheight) *0.1);
-}
-#teamTitle{
-	position: absolute;
-	font-size: calc( var(--bannerheight) * 0.8);
-	top: calc( var(--bannerheight) *0.1);
-	left:  calc( var(--bannerheight) * 6 * 0.875);
-	color: white;
-}
-#title{
-	top: 0;
-	left: 0;
-	position: absolute;
-	width: 100%;
-	height: var(--bannerheight);
-	background: #FFA373;
-	font-family: Silkscreen;
-	font-size: calc( var(--bannerheight) * 0.8);
-	z-index:1;
-	border-bottom: 1px solid white;
-}
-#bottomTitle{
-	bottom: 0;
-	left: 0;
-	position: absolute;
-	width: 100%;
-	height: var(--bannerheight);
-	font-family: Arial;
-	font-size: calc( var(--bannerheight) * 0.8);
-	z-index:1;
-	border-top: 1px solid white;
-}
-.icon{
-	display: block;
-	height: calc(var(--bannerheight) * 0.5);
-	width: calc(var(--bannerheight) * 0.5);
-	padding-left: 1vw;
-	margin-top: calc(var(--bannerheight) * 0.25);
-	float: left;
-
-}
-.grid-container{
-	display: inline-grid;
-	grid-template-columns: var(--cwidth) var(--cwidth) var(--cwidth) var(--cwidth) var(--cwidth) var(--cwidth) var(--cwidth);
-	grid-template-rows: var(--cwidth) 12vh var(--cwidth) min(var(--cwidth),12vh);
-	overflow: hidden;
-	font-size 4vh: 
-}
-#facebook{
-}
-#messenger{
-	margin-left: calc(50vw - var(--bannerheight) - 2vw);
-
-}
-#email{
-	
-}
-#twitter{
-	
-}
-#logo{
-	position: absolute;
-	top: calc( var(--bannerheight) * 0.1);
-	right: calc( var(--bannerheight) * 0.1);
-	height: calc( var(--bannerheight) * 0.8);
-	width: calc( var(--bannerheight) * 0.8);
-	z-index:3;
-}
-#titleText{
-	color: black;
-}
-
-
-#mainContainer{
-	position: absolute;
-	top: var(--bannerheight);
-	left: 0;
-	width: 100%;
 }
