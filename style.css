@@ -15,7 +15,7 @@ html, body {
 
 @media {
   .button {
-    background-color: cornflowerblue; /* Green */
+    background-color: #6f73af; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -23,36 +23,46 @@ html, body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .button:hover {
+      cursor: pointer;
+      background-color: #8387c4;
   }
   #signup {
     margin-top: 4vh;
   } 
 #description{
-  color: cornflowerblue;
+  color: rgb(162, 189, 240);
   margin-top: 5vh;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   font-size:1.4vw;
+}
+#info-text {
+    padding: 5vw 10vw;
 }
 .middle {
 	text-align: center;
 }
 #window{
-	width: 50%;
-	margin-top: 1vh;
+	width: 60%;
+    max-width: 750px;
+	margin-top: 6vw;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+    box-shadow:  0 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
 #title_banner{
-    margin-top: 0%;
+    margin-top: 5%;
 	width: 75%;
 }
 #schedule-text-header{
-  margin-top:5vh;
+  margin-top:3vh;
   font-size: 4.5vw;/*2.5em; /* 40px/16=2.5em */
   color: white
 }
@@ -63,7 +73,7 @@ html, body {
 }
 
 .schedule-text{
-  color: cornflowerblue;
+  color: rgb(162, 189, 240);
   font-size: 1.5vw
 }
 
