@@ -32,7 +32,7 @@ html, body {
       background-color: #8387c4;
   }
   #signup {
-    margin-top: 4vh;
+    margin-top: 5vh;
   } 
 #description{
   color: rgb(162, 189, 240);
@@ -82,6 +82,12 @@ html, body {
   font-size: 4.5vw;/*2.5em; /* 40px/16=2.5em */
   color: white
 }
+
+#plant {
+    margin-top: 3%;
+    width: 5%;
+}
+
 dt {  margin-top: 20px; color: white;}
 
 
